@@ -49,7 +49,7 @@ export default class App extends Vue {
             rsp.json()
                 .then((data: any) => {
                   this.patientData = data;
-                  console.log(data);
+                  console.log(data + " ");
                 });
         })
         .catch((err) => console.log(err));
